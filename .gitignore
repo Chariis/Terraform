@@ -1,0 +1,19 @@
+# Ignore all .terraform folders recursively
+**/.terraform/
+
+# Ignore all .tfstate and backup files
+**/*.tfstate
+**/*.tfstate.backup
+
+# Ignore lock file (optional — you may want to track this)
+**/.terraform.lock.hcl
+
+# Ignore shell scripts (optional)
+#**/*.sh
+1.storage_account/var.sh
+
+# Ignore .vscode settings
+.vscode/
+
+# Terraform files
+# Local configuration files
